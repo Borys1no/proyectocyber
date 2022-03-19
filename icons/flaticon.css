@@ -1,0 +1,46 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/09/2020 03:25
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-boton-de-menu-de-tres-lineas-horizontales:before { content: "\f100"; }
+.flaticon-configuraciones:before { content: "\f101"; }
+.flaticon-proximo:before { content: "\f102"; }
+.flaticon-atras:before { content: "\f103"; }
+.flaticon-lupa:before { content: "\f104"; }
+.flaticon-avatar:before { content: "\f105"; }
+.flaticon-corazon:before { content: "\f106"; }
+.flaticon-mas:before { content: "\f107"; }
+.flaticon-anadir:before { content: "\f108"; }
+.flaticon-error:before { content: "\f109"; }
+.flaticon-carpeta:before { content: "\f10a"; }
+.flaticon-casa:before { content: "\f10b"; }
+.flaticon-archivo:before { content: "\f10c"; }
+.flaticon-editar:before { content: "\f10d"; }

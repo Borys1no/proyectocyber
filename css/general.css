@@ -1,0 +1,60 @@
+:root{
+    --colonaranja: #a9461d;
+    --colorpiel: #ea993a;
+    --colorturq: #2c7784;
+    --colorcelesteclaro: #8fcfc1;
+    --colormelon: #e4ddb3;
+
+    /*basic colors*/
+    --red: #FF0000;
+    --yellow: #FFF300;
+    --green:#00FF00;
+    --blue:#0064FF;
+    --white:#ffffff;
+    --black:#0000;
+
+    /*hover color*/
+    --hovernaranja: #612912;
+    --hoverpiel: #966326;
+    --hoverturq: #1B484F;
+    --hoverceles: #669188 ;
+    --hovermelon:#9B967A;
+
+    /*tenues*/
+    --naranjatransparent: #ad471b60 ;
+    --pieltransparent: #ea983a60;
+    --turqtransparent: #2c778454;
+    --celesteclarotransparent: #8fcfc14d;
+    --melontransparent: #e4ddb36b;
+    --cielo:#80A6CA;
+
+    /*rolores ramdon*/
+    --azuloscuro:#062A62;
+    --rojooscuro:#911111;
+    --verdelimon:#729111;
+    --verdeoscuro:#219111;
+    --turquesaoscuro:#11914F;
+    --turoscuro:#119181;
+    --azuoscu:#151191;
+    --morado:#531191;
+    --rosa:#811191;
+    --gris:#758DA4;
+
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 60px;
+}

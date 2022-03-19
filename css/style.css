@@ -1,0 +1,104 @@
+
+:root{
+    --colonaranja: #a9461d;
+    --colorpiel: #ea993a;
+    --colorturq: #2c7784;
+    --colorcelesteclaro: #8fcfc1;
+    --colormelon: #e4ddb3;
+
+    /*basic colors*/
+    --red: #FF0000;
+    --yellow: #FFF300;
+    --green:#00FF00;
+    --blue:#0064FF;
+    --white:#ffffff;
+    --black:#0000;
+
+    /*hover color*/
+    --hovernaranja: #612912;
+    --hoverpiel: #966326;
+    --hoverturq: #1B484F;
+    --hoverceles: #669188 ;
+    --hovermelon:#9B967A;
+
+    /*tenues*/
+    --naranjatransparent: #ad471b60 ;
+    --pieltransparent: #ea983a60;
+    --turqtransparent: #2c778454;
+    --celesteclarotransparent: #8fcfc14d;
+    --melontransparent: #e4ddb36b;
+
+
+
+
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(../assets/backlogin.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50% ;
+    background-size: cover;
+    width: 100%;
+}
+
+
+h1{
+    font-style: italic;
+    font-size: 30px;
+    color: #000;
+    border-bottom: 1px solid #19AAD9;
+    
+}
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    padding: 30px;
+    background:#ffffff8f ;
+    border-radius: 60px;
+}
+p{
+    color: var(--white);
+
+}
+
+input[type="text"],input[type="password"] {
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+    color: #ffffff;
+    background-color: black;
+}
+input[type="submit"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 30px;
+    border: 0;
+    margin: 20px auto;
+    background: var(--colorturq);
+    cursor: pointer;
+    margin-top: 0;
+}
+input[type="submit"]:hover{
+    background: var(--hoverturq);
+    color: #ffffff;
+}

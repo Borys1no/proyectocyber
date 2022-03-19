@@ -1,0 +1,225 @@
+:root{
+    --colonaranja: #a9461d;
+    --colorpiel: #ea993a;
+    --colorturq: #2c7784;
+    --colorcelesteclaro: #8fcfc1;
+    --colormelon: #e4ddb3;
+
+    /*basic colors*/
+    --red: #FF0000;
+    --yellow: #FFF300;
+    --green:#00FF00;
+    --blue:#0064FF;
+    --white:#ffffff;
+    --black:#0000;
+
+    /*hover color*/
+    --hovernaranja: #612912;
+    --hoverpiel: #966326;
+    --hoverturq: #1B484F;
+    --hoverceles: #669188 ;
+    --hovermelon:#9B967A;
+
+    /*tenues*/
+    --naranjatransparent: #ad471b60 ;
+    --pieltransparent: #ea983a60;
+    --turqtransparent: #2c778454;
+    --celesteclarotransparent: #8fcfc14d;
+    --melontransparent: #e4ddb36b;
+    --cielo:#80A6CA;
+
+    /*rolores ramdon*/
+    --azuloscuro:#062A62;
+    --rojooscuro:#911111;
+    --verdelimon:#729111;
+    --verdeoscuro:#219111;
+    --turquesaoscuro:#11914F;
+    --turoscuro:#119181;
+    --azuoscu:#151191;
+    --morado:#531191;
+    --rosa:#811191;
+    --gris:#758DA4;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: var(--azuloscuro) ;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+header .slo{
+    color: var(--white);
+    height: 50px;
+    line-height:50px ;
+    font-size: 25px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin:0 ;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li ul{
+    position: absolute;
+    left: 0;
+    background: var(--azuloscuro);
+    display: none;
+    border: 3px solid #ffffff;
+
+}
+
+
+header nav ul li.active ul{
+    display: block;
+
+}
+header nav ul li ul li{
+    display: block;
+    width: 200px;
+
+}
+
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding:0 20px ;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover{
+    background: var(--cielo);
+    
+}
+.menu-toggle{
+    color: var(--white);
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:991px){
+    header{
+        padding: 0 20px;
+    }
+    .menu-toggle{
+        display:block ;
+    }
+    header nav{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: var(--cielo);
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0, 0, 0, .2) ;
+    }
+    header nav ul li a:hover,
+    header nav ul li a.active{
+    background: var(--gris);
+    
+}
+    header nav ul li.active ul{
+    position: relative;
+    background: var(--azuloscuro);
+
+}
+    header nav ul li.active ul{
+        width: 100%;
+        
+
+}
+}
+/*Informacion*/
+section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #709df53b;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.wrap .btn:hover{
+    background: rgb(248, 242, 242);
+    color: #000;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+ p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}
